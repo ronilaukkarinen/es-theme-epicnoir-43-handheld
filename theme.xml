@@ -99,7 +99,7 @@ This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAl
         <color>A3332D</color>
         <origin>0 0</origin>
         <pos>0.08 0.354</pos>
-        <size>0.270 0.039</size>
+        <size>0.320 0.039</size>
         <fontSize>0.035</fontSize>
     </text>
     
@@ -144,7 +144,7 @@ This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAl
 
     <image name="background" extra="true">
         <tile>false</tile>
-        <path>./_art/ingame-global-bg2.jpg</path>
+        <path>./_art/ingame-global-bg8.jpg</path>
         <size>1 1</size>
         <pos>0 0</pos>
     </image>
@@ -180,10 +180,10 @@ This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAl
         <alignment>left</alignment>
         <forceUppercase>1</forceUppercase>
         <color>ffffff</color>
-        <fontSize>0.037</fontSize>
+        <fontSize>0.035</fontSize>
         <origin>0 0</origin>
         <pos>0.429 0</pos>
-        <size>0.40 0.075</size>
+        <size>0.60 0.075</size>
     </text>
 
     <text name="md_description">
@@ -193,7 +193,7 @@ This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAl
 	    <alignment>left</alignment>
         <forceUppercase>0</forceUppercase>
         <lineSpacing>1.01</lineSpacing>
-	    <pos>0.429 0.787</pos>
+	    <pos>0.429 0.775</pos>
 	    <size>0.464 0.1111</size>
     </text>
     
@@ -214,19 +214,19 @@ This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAl
 
 <!-- Place metadata --> 
     <text name="md_lbl_rating">
-        <pos>0.428 0.919</pos>
+        <pos>0.428 0.872</pos>
         <size>0.06 0.07</size>
     </text>
 
     <rating name="md_rating">
-        <pos>0.5 0.965</pos>
+        <pos>0.5 0.920</pos>
         <size>0 0.020</size>
         <filledPath>./_art/var/star_filled.svg</filledPath>
         <unfilledPath>./_art/var/star_hollow.svg</unfilledPath>
     </rating>
 
     <text name="md_lbl_players">
-        <pos>0.615 0.919</pos>
+        <pos>0.615 0.872</pos>
         <size>0.06 0.07</size>
     </text>
         
@@ -234,24 +234,32 @@ This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAl
         <fontPath>./_art/Acre.otf</fontPath>
         <color>888888</color>
         <fontSize>0.024</fontSize>
-        <pos>0.688 0.939</pos>
+        <pos>0.688 0.897</pos>
         <size>0.06 0.07</size>
     </text>
         
     <text name="md_lbl_genre">
-        <pos>0.770 0.919</pos>
+        <pos>0.770 0.872</pos>
         <size>0.06 0.07</size>
     </text>
 
     <text name="md_genre">
-        <pos>0.838 0.940</pos>
-        <size>0.4 0.067</size>
+        <pos>0.838 0.894</pos>
+        <size>0.4 0.0740</size>
     </text> 
         
     <text name="md_lbl_releasedate">
-        <pos>0.042 0.933</pos>
+        <pos>0.032 0.874</pos>
         <size>0.06 0.07</size>
     </text>
+
+    <datetime name="md_releasedate">
+        <pos>0.125 0.894</pos>
+        <color>888888</color>
+        <fontPath>./_art/Acre.otf</fontPath>
+        <fontSize>0.025</fontSize>
+        <size>0.10 0.0740</size>
+    </datetime>
       
 <!-- Extra Text Labels. Edit text values if needed.-->
 <!--    <text name="players_lbl_2, btn_a, btn_b, btn_x" extra="true">
@@ -292,7 +300,7 @@ This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAl
         <fontSize>0.0199</fontSize>
         <color>ffffff</color>
         <origin>0 0</origin>
-        <pos>0.429 0.707</pos>
+        <pos>0.429 0.690</pos>
         <size>0.06 0.07</size>
     </text> 
         
@@ -325,8 +333,8 @@ This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAl
     <image name="md_image">
         <tile>false</tile>
         <origin>0.5 0.5</origin>
-        <pos>0.66 0.42</pos><!-- 0.43 0.16 size 0.464 0.570 -->
-        <maxSize>0.5 0.6</maxSize>
+        <pos>0.67 0.40</pos><!-- 0.43 0.16 size 0.464 0.570 -->
+        <maxSize>0.7 0.7</maxSize>
     </image>
 
 </view>
@@ -335,8 +343,8 @@ This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAl
     <view name="video">
         <video name="md_video">
             <origin>0.5 0.5</origin>
-            <pos>0.66 0.42</pos>
-            <maxSize>0.5 0.6</maxSize>
+            <pos>0.695 0.41</pos>
+            <maxSize>0.56 0.56</maxSize>
             <delay>1.5</delay>
             <showSnapshotNoVideo>true</showSnapshotNoVideo>
             <showSnapshotDelay>true</showSnapshotDelay>
